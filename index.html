@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <!-- BARIS PALING PENTING: Memberitahu ponsel untuk mode smartphone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>IPSRS RSUD KHZ. MUSTHAFA</title>
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-        iframe { width: 100%; height: 100%; border: none; }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Menghilangkan double scrollbar */
+            background-color: #f1f5f9; /* Warna dasar agar tidak putih kedap-kedip saat loading */
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
     </style>
 </head>
 <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbxFDEbtJfe6LxnMmeqmKuobFTHDvfOZ49vHYN11Os8KIjyw4f7SeMt_hcsavnVdlC2y/exec" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-    </iframe>
+    <!-- Pastikan link berakhiran /exec -->
+    <iframe src="https://script.google.com/macros/s/AKfycbzT3moqDV-tHbzFo0Mt3PdZPZKWHFg01RpTY-5LYQwtcuP4Eils0x_Kgw6_kpLNWHZy/exec"></iframe>
 </body>
 </html>
